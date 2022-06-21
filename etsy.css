@@ -1,0 +1,468 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family:Georgia, 'Times New Roman', Times, serif;
+        }  
+
+.big-container{
+
+          max-width:1400px;
+          margin: 0 auto;
+          
+                  
+}
+
+.toolbar{
+          display: flex;
+          justify-content: space-between;
+          background-color: #ffffff;
+          padding: 12px 36px;
+          
+
+}
+
+.logo{
+   
+      text-decoration: none; 
+      
+}
+.tool-img{
+    margin:10px 0px 10px 5px;
+
+
+}
+
+
+.search-input{
+       width: 1100px;
+       padding: 15px;
+       border-radius: 30px;
+       border:2px solid #222;
+       transition: 200ms;
+       background:#F1F1F1 ;
+       font-size: 16px;
+   
+
+}
+
+.btn-bar{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+      
+
+}
+
+.first-btn{
+      border: none;
+      font-size: small;
+      background-color: #ffffff;
+      padding: 20px;   
+            
+}
+
+.first-btn:hover{
+      
+      background-color:#F1F1F1;
+      border-radius: 30px;
+      cursor: pointer;
+      
+            
+}
+
+.second-btn:hover{
+      background-color:#F1F1F1;
+      border-radius: 30px;
+      cursor: pointer;
+     
+}
+
+/* Nav End */
+
+/* Menu Begining */
+
+.menu-list{
+      display: flex;
+      align-items:center;
+      justify-content:space-evenly;
+      list-style-type: none;
+      
+}
+
+.menu-link{
+      text-decoration: none;
+      color: #666666;
+      font-size:15px;
+      
+}
+
+hr{
+      margin-top:10px;
+      border: 1px solid #DEDEDE;
+}
+
+/* First areas */
+      
+ .first-area{
+     
+      height: 100px;
+      background-color:#DDEBE3 ;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      
+
+  
+}
+
+.first-area-text{
+     font-size: 42px;
+     font-weight: lighter;
+     letter-spacing: 2px;
+     
+  
+}
+
+ .second-area{
+    
+    background-color:#DDEBE3 ;
+    height: 100px;
+    
+   
+}
+
+.second-area-list{
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+     
+}
+
+.second-area-img{
+      border-radius: 100%;
+      width: 180px;
+      padding: 30px;
+      cursor: pointer;
+      
+}
+
+.second-area-text{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: lighter;
+      cursor: pointer;
+  
+}  
+
+.thirth-area{
+      background-color: white;
+      height: 150px;
+}
+
+/* GRİD Start */
+
+.grid-area{
+
+      padding: 40px;
+}
+
+.grid-area-text{
+      font-weight:lighter ;
+
+     
+}
+
+
+.grid-container{
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 15px;
+
+}
+
+
+.grid-box-img{
+     width: 250px;
+     border-radius: 5%;
+     margin-top: 20px;
+     
+}  
+
+.grid-box-text{
+      font-weight: lighter;
+      font-size:18px ;
+      
+}
+
+.grid-box-del{
+      color: #258635;
+      font-weight: lighter;
+}
+
+.grid-box-percent{
+      color: #258635;
+      font-weight: lighter;
+}
+
+/* Grid-1 Finish */
+/* Grid-2 Start */
+
+.grid-area-2{
+
+      padding: 40px;
+}
+
+.grid-area-text-2{
+      font-weight:lighter ;
+      margin-bottom: 20px;
+
+     
+}
+
+
+.grid-area-btn-list{
+      display: flex;
+      justify-content:space-around;
+      align-items: left;
+    
+     
+}
+
+.grid-area-btn{
+      border: none;
+      background: white;
+      font-size: 20px;
+      color: #666666;
+      cursor: pointer;
+      
+
+}
+
+.grid-area-btn:hover{
+      
+      color: black;
+
+}
+
+
+
+.grid-container-2{
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: 1fr 1fr;
+      
+
+}
+
+
+.card-img{
+     object-fit:contain;
+     width: 100%;
+     height: 100%;
+     padding: 10px;
+     border-radius: 5%;
+   
+     
+}
+   
+.cell-2{
+      grid-column-end: span 2;
+      grid-row-end: span 2;
+}
+
+
+/* Grid-3 Start */
+
+.grid-area-3{
+
+      padding: 40px;
+}
+
+
+.grid-area-text-3{
+      font-weight:lighter ;
+      margin-bottom: 20px;
+
+     
+}
+.grid-area-text-3-1{
+      font-weight:lighter ;
+      color:#666666
+
+     
+}
+
+.grid-container-3{
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap:15px;
+      margin-top:20px;
+     
+
+}
+
+.grid-card{
+      border: 1px solid #a0a0a0;
+      border-radius: 20px;
+      
+}
+
+.grid-img{
+      border-radius: 20px;
+      object-fit: cover;
+}
+
+
+.grid-card-img{
+     
+     width: 100%;
+     height: 100%;  
+     object-fit:cover ;
+     border-radius: 20px 20px 0 0;
+     
+      
+}
+
+.grid-content-text{
+      text-align: center;
+      padding: 30px;
+}
+
+/* What is it Etsy Start */
+
+.what-is-etsy{
+      background:#FDEBD2 ;
+}
+
+.etsy-content{
+      
+      text-align: center;
+      padding: 30px;
+}
+
+.heading-one{
+      
+      font-weight: lighter;
+      font-size: 32px;
+      margin-bottom: 5px;
+      
+}
+
+.heading-link{
+      
+      color: #222;
+
+}
+
+
+.etsy-grid{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+           
+      
+      
+}
+
+.etsy-grid-box{
+     padding:0 96px 0 96px;
+  
+     
+}
+
+.etsy-grid-box-heading{
+      font-weight: lighter;
+      font-size: 30px;
+      padding: 10px;
+
+}
+.etsy-grid-box-content{
+      color: #666666;
+      font-weight: 22px;
+      padding: 10px;
+      letter-spacing: 2px;
+      line-height: 20px;
+}
+
+.heading-two-text{
+      font-size: 22px;
+      font-weight: lighter;
+     
+     
+
+}
+
+.heading-two-btn{
+      padding: 20px;
+      border-radius: 40px;
+      background-color:#FDEBD2 ;
+      font-weight: bolder;
+      margin-top: 10px;
+      cursor: pointer;
+}
+
+.heading-two-btn:hover{
+      border-radius: 60px;
+    
+}
+
+/* Mail Area */
+
+.mail-content{
+      background: #D7E6F4;
+      text-align: center;
+      padding: 30px;
+     
+}
+
+
+.mail-input
+      {
+       padding: 15px 0 15px 15px ;
+       border-radius: 30px 0 0 30px;
+       border-top:2px solid #a0a0a0;
+       border-bottom:2px solid #a0a0a0;
+       border-right:2px solid #D7E6F4;
+       border-left:2px solid #a0a0a0;
+       transition: 200ms;
+       background:#F1F1F1 ;
+       font-size: 16px;
+       width: 500px;
+       margin-top:20px;
+       
+       
+       
+      
+       
+}
+
+.mail-btn{
+       
+       padding: 15px 15px 15px 0;
+       border-radius: 0 30px 30px 0;
+       border-top:2px solid #a0a0a0;
+       border-bottom:2px solid #a0a0a0;
+       border-right:2px solid #a0a0a0;
+       border-left:2px solid #D7E6F4;
+       transition: 200ms;
+       background:#F1F1F1 ;
+       font-size: 16px;
+       width: 130px;
+       cursor: pointer;
+
+       
+
+}
+
+.mail-btn:hover{
+       
+      color: snow;
+      background: #222;
+      cursor: pointer;
+
+      
+
+}
